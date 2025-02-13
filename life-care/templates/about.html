@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+   <!-- Basic -->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <!-- Mobile Metas -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+   <!-- Site Metas -->
+   <title>Lung Cancer Detection</title>
+   <meta name="keywords" content="">
+   <meta name="description" content="">
+   <meta name="author" content="">
+   <!-- Site Icons -->
+   <link rel="shortcut icon" href="static/images/fevicon.ico.png" type="image/x-icon" />
+   <link rel="apple-touch-icon" href="static/images/apple-touch-icon.png">
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="static/css/bootstrap.min.css">
+   <!-- Site CSS -->
+   <link rel="stylesheet" href="style.css">
+   <!-- Colors CSS -->
+   <link rel="stylesheet" href="static/css/colors.css">
+   <!-- ALL VERSION CSS -->
+   <link rel="stylesheet" href="static/css/versions.css">
+   <!-- Responsive CSS -->
+   <link rel="stylesheet" href="static/css/responsive.css">
+   <!-- Custom CSS -->
+   <link rel="stylesheet" href="static/css/custom.css">
+   <!-- Modernizer for Portfolio -->
+   <script src="static/js/modernizer.js"></script>
+   <!-- [if lt IE 9] -->
+   </head>
+   <body class="clinic_version">
+      <!-- LOADER -->
+      <div id="preloader">
+         <img class="preloader" src="static/images/loaders/heart-loading2.gif" alt="">
+      </div>
+      <!-- END LOADER -->
+      <header>
+         <div class="header-top wow fadeIn">
+            <div class="container">
+               <a class="navbar-brand" href="index.html"><img src="static/images/logo.png" alt="image"></a>
+               <div class="right-header">
+                  <div class="header-info">
+                     <div class="info-inner">
+                        <span class="icontop"><img src="static/images/phone-icon.png" alt="#"></span>
+                        <span class="iconcont"><a href="tel:800 123 456">800 123 456</a></span>	
+                     </div>
+                     <div class="info-inner">
+                        <span class="icontop"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                        <span class="iconcont"><a data-scroll href="mailto:info@yoursite.com">info@Lifecare.com</a></span>	
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="header-bottom wow fadeIn">
+            <div class="container">
+               <nav class="main-menu">
+                  <div class="navbar-header">
+                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i class="fa fa-bars" aria-hidden="true"></i></button>
+                  </div>
+				  
+                  <div id="navbar" class="navbar-collapse collapse">
+                     <ul class="nav navbar-nav">
+                        <li><a data-scroll href="{{url_for('index')}}">Home</a></li>
+                        <li><a class="active" href="{{url_for('about')}}">About us</a></li>
+                        <li><a data-scroll href="{{url_for('login')}}">Login</a></li>
+                     </ul>
+                  </div>
+               </nav>
+               
+            </div>
+         </div>
+      </header>
+      
+      <!-- end section -->
+      
+      <div id="about" class="section wow fadeIn">
+         <div class="container">
+            <div class="heading" style="margin-top: 130px;">
+               <span class="icon-logo"><img src="static/images/icon-logo.png" alt="#"></span>
+               <h2> Lung Cancer Detection </h2>
+            </div>
+            <!-- end title -->
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="message-box">
+                     <h4></h4>
+                     <h2>A brief about the Project</h2>
+                     <p class="lead" style="text-align: justify;">The MobileNet-LSTM hybrid model for lung cancer detection combines the strengths of MobileNet, a lightweight convolutional neural network (CNN) designed for efficient image classification, with Long Short-Term Memory (LSTM) layers, which are well-suited for sequential data processing. In this approach, MobileNet is used to extract features from lung images, capturing the spatial characteristics of the data. These features are then passed to the LSTM layer, which helps in modeling complex patterns or temporal dependencies in the data. The model classifies the lung images into three classes: Benign cases, Malignant cases, and Normal cases, aiding in the early detection of lung cancer. This hybrid approach provides an efficient and accurate solution for classifying medical images with limited computational resources.
+                     </p>
+
+                     <!-- <a href="#services" data-scroll class="btn btn-light btn-radius btn-brd grd1 effect-1">Learn More</a> -->
+                  </div>
+                  <!-- end messagebox -->
+               </div>
+               <!-- end col -->
+               <div class="col-md-6">
+                  <div class="post-media wow fadeIn">
+                     <img src="static/images/image.jpg" alt="" class="img-responsive">
+                     <!-- <a href="http://www.youtube.com/watch?v=nrJtHemSPW4" data-rel="prettyPhoto[gal]" class="playbutton"><i class="flaticon-play-button"></i></a> -->
+                  </div>
+                  <!-- end media -->
+               </div>
+               <!-- end col -->
+            </div>
+            <!-- end row -->
+           
+	  
+      <a href="#home" data-scroll class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+      <!-- all js files -->
+      <script src="static/js/all.js"></script>
+      <!-- all plugins -->
+      <script src="static/js/custom.js"></script>
+      <!-- map -->
+     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNUPWkb4Cjd7Wxo-T4uoUldFjoiUA1fJc&callback=myMap"></script>
+   </body>
+</html>
